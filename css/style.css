@@ -1,0 +1,11 @@
+body {
+    background-color: pink;
+    font-family: 'Prompt', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(62, 135, 196);
+}
