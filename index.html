@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-    <script src="/js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Prompt:ital@1&display=swap"
         rel="stylesheet">
@@ -17,8 +16,144 @@
 
 <div class="full-page">
 
-    <h1>hello world</h1>
-    <p>cat game good</p>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo left"><img class="left george" src="images/george.gif"></a>
+                <a href="#" class="brand-logo center">Cat About Town</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="start">
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s6">
+                <h3><u>Getting Started</u></h3>
+            </div>
+        </div>   
+
+        <div class="row">
+            <div class="col s6">
+                <h5><u>Download</u></h5>
+                <p class="direct">
+                    <button class="hoverable"><a href="/images/CAT.zip" download>Download game!</a></button>
+                </p>
+            </div>
+            <div class="col s6">
+                <h5><u>How to Play</u></h5>
+                <p class="direct">
+                    <ul>
+                        <li><span>❥</span> To walk right, hit the <span>RIGHT</span> arrow key.</li>
+                        <li><span>❥</span> To walk left, hit the <span>LEFT</span> arrow key.</li>
+                        <li><span>❥</span> To jump, hit the <span>UP</span> arrow key.</li>
+                        <li><span>❥</span> To attack, hit the <span>SPACE</span> key.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>    
+    </div>
+
+    <div class="row">
+        <div class="col s4">
+            <div class="desc">
+                <h3><u>Description</u></h3>
+                <p>
+                <ul>
+                    <li>
+                        <p class="center">
+                            <img class="responsive-img" src="/images/run.gif">
+                            <img class="responsive-img" src="/images/run2.gif">
+                            <img class="responsive-img" src="/images/run.gif">
+                        </p>
+                    </li>
+                </ul>
+                </p>
+                <p>In Cat About Town, you play as a housecat that's escaped her home to run around and cause mischief!</p>
+                <p>
+                <ul>
+                    <li>
+                        <p class="center">
+                            <img class="responsive-img" src="/images/walk.gif">
+                            <img class="responsive-img" src="/images/fly.gif">
+                            <img class="responsive-img" src="/images/fly2.gif">
+                        </p>
+                    </li>
+                </ul>
+                </p>
+                <p>Trot around, jump on things, and catch some critters! When you attack you cause some damage, and when your prey's health is depleted you get a snack!</p>
+                <p>
+                    <ul>
+                        <li>
+                            <p class="center">
+                                <img class="responsive-img" src="/images/AttackR.gif">
+                                <img class="responsive-img" src="/images/fly2.gif">
+                                <img class="responsive-img" src="/images/fly3.gif">
+                                <img class="responsive-img" src="/images/AttackL.gif">
+                            </p>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            
+        </div>
+        <div class="col s2"></div>
+        <div class="col s6">
+            <div class="screen">
+                <h3><u>Images</u></h3>
+                <ul>
+                    <li><span>❥</span> Brown Bird: You can attack her if you <span>jump</span> up to get her first!
+                        <p class="center">
+                            <img class="responsive-img" src="/images/BBirdR1.png">
+                            <img class="responsive-img" src="/images/BBirdR2.png">
+                            <img class="responsive-img" src="/images/BBirdR3.png">
+                            <img class="responsive-img" src="/images/BBirdR4.png">
+                        </p>
+                    </li>
+                    <li><span>❥</span> Red Bird: You can get to him by first jumping up onto the <span>branch</span>, then jumping up off of it to attack!
+                        <p class="center">
+                            <img class="responsive-img" src="/images/RBirdR1.png">
+                            <img class="responsive-img" src="/images/RBirdR2.png">
+                            <img class="responsive-img" src="/images/RBirdR3.png">
+                            <img class="responsive-img" src="/images/RBirdR4.png">
+                        </p>
+                    </li>
+                    <li><span>❥</span> Rat: This little guy is the easiest to catch! He's on the ground, served up on a silver platter! <span>YUM!</span>
+                        <p class="center">
+                            <img class="responsive-img" src="/images/RatL1.png">
+                            <img class="responsive-img" src="/images/RatL2.png">
+                            <img class="responsive-img" src="/images/RatL3.png">
+                            <img class="responsive-img" src="/images/RatL4.png">
+                            <img class="responsive-img" src="/images/RatL5.png">
+                        </p>
+                    </li>
+                </ul>
+                <p><img class="responsive-img" src="/images/Capture.PNG"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s6">
+            <div class="tech">
+                <h3 class="left-align"><u>Technologies Used</u></h3>
+                <ul>
+                    <li><span>❥</span> Python 2.7.17</li>
+                    <li><span>❥</span> Pygame 2.0.3</li>
+                    <li><span>❥</span> Materialize</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="col s6">
+            <div class="future">
+                <h3 class="left-align"><u>Future Enhancements</u></h3>
+                <ul>
+                    <li><span>❥</span> damn</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
 </div>
 
